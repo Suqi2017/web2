@@ -1,0 +1,174 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+ul,li{
+	list-style: none;
+}
+#sq{
+    width:1450px;
+    height: 1200px;
+    }
+#sq0{
+	margin:0 auto;
+	background-color: #ffffff;
+    position: fixed;
+    z-index: 1;
+    color:#a8b5ac;
+    width:1200px;
+    height: 0px;
+    font-size: 12px;
+    margin-left: 135px;
+    }
+#sq00{
+	margin:0 auto;
+	background-color: #ffffff;
+    position: fixed;
+    z-index: 1;
+    color:#a8b5ac;
+    width:1450px;
+    height: 180px;
+    font-size: 12px;
+    }
+#sq01{
+
+    margin-top: 0px;
+    float: left;
+    width:800px;
+    height: 20px;
+    font-size: 12px;
+    margin-left: 440px;
+    }
+#sq11{
+	border: 1px solid #a8b5ac;
+	float: right;
+    width:85px;
+    height: 40px;
+    margin-top: 55px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 12px;
+}
+#sq12{
+	border: 1px solid #a8b5ac;
+	float: right;
+    width:85px;
+    height: 40px;
+    margin-top: 55px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+#sq13{
+	border: 1px solid #a8b5ac;
+	float: right;
+    width:85px;
+    height: 40px;
+    margin-top: 55px;
+    line-height: 20px;
+    font-size: 10px;
+}
+#sq2{
+    float: left;
+	color:#ff0000;
+    width:1080px;
+    font-size: 12px;
+    margin-left: 240px;
+    margin-top: 0px;
+
+}
+#sq21{
+	float: left;
+	margin-left: 135px;
+	line-height: 37px;
+	text-align: center;
+	font-size:20px;
+	color: white;
+	height: 40px;
+	width:170px;
+    background-color: #ff4d04;
+}
+#sq22{
+	float: left;
+	line-height: 37px;
+	text-align: center;
+	font-size:20px;
+	height: 40px;
+	width:110px;
+}
+
+#sq3{
+	float: left;
+	height: 1px;
+	background-color: #ff4d04;
+	width:1350px;
+}
+.box{
+	width: 809px;
+	height: 361px;
+	border: 1px solid red;
+	margin-left: 305px;
+	position: relative;
+	overflow: hidden;
+}
+#q1{
+	width:140px;
+	height:140px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background:#CCC;
+	opacity:0.6;
+	cursor: move;
+	display:none; 
+	filter:alpha(opacity=40);
+}
+.slider{
+	width: 6472px;
+	position: absolute;
+	left: -809px;
+}
+.slide{
+	width: 809px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	/* display: none; */
+	opacity: 0;
+}
+#left{
+	left: 20px;
+}
+#right{
+	right: 20px;
+}
+.nav{
+	position: absolute;
+	left: 300px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+.nav .active{
+	background: red;
+}
